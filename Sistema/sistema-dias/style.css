@@ -20,9 +20,7 @@ nav{
     height: 100%;
 }
 
-nav ul{
-    margin: 0 auto;
-}
+
 nav li{
     padding: 20px 0;
     
@@ -32,6 +30,12 @@ nav li{
 nav a{
     display: block;
     font-size:18px;
+}
+
+.logo-branco-pequeno{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
 }
 main{
     width:85%;
