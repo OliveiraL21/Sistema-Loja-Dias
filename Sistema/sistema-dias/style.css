@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+
+header{
+    width: 15%;
+    height: 100%;
+    
+}
+
+
+nav ul{
+    margin: 0 auto;
+}
+nav li{
+    padding: 20px 0;
+    
+    
+}
+
+nav a{
+    display: block;
+    font-size:18px;
+}
+main{
+    width:85%;
+}
+
+.menu-itens{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-branco{
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
