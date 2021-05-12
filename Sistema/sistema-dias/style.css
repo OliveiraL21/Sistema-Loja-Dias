@@ -14,7 +14,11 @@ header{
     height: 100%;
     
 }
-
+nav{
+    background-color: #cccccc;
+    text-align: center;
+    height: 100%;
+}
 
 nav ul{
     margin: 0 auto;
