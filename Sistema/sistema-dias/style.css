@@ -9,27 +9,36 @@ html, body{
 }
 
 
+/*======= Home Page=====*/
+
 header{
     width: 15%;
     height: 100%;
     
 }
 nav{
-    background-color: #cccccc;
+    background-color: #612A5E;
     text-align: center;
     height: 100%;
 }
 
-
+nav ul{
+    list-style-type: none;
+    
+}
 nav li{
-    padding: 20px 0;
-    
-    
+    padding: 50px 0;
+}
+nav li:hover{
+    transform: scale(1.2);
 }
 
 nav a{
-    display: block;
-    font-size:18px;
+    
+    font-size:1.2em;
+    font-family: 'Fira Sans', sans-serif;;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .logo-branco-pequeno{
@@ -44,6 +53,8 @@ main{
 .menu-itens{
     width: 40px;
     height: 40px;
+    display: block;
+    margin: 0 auto;
 }
 
 .logo-branco{
@@ -53,3 +64,5 @@ main{
     top: 15%;
     left: 30%;
 }
+
+
